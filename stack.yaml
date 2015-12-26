@@ -1,0 +1,7 @@
+resolver: lts-3.17
+packages:
+  - '.'
+extra-deps:
+  - HDBC-2.4.0.1
+flags: {}
+extra-package-dbs: []
