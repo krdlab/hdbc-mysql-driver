@@ -1,7 +1,12 @@
 resolver: lts-3.17
 packages:
   - '.'
+  - location:
+      git: https://github.com/krdlab/mysql.git
+      commit: 00fcc3ae5bb03b49612ecdd43319164377671ad5
+    extra-dep: true
 extra-deps:
+  - mysql-0.1.1.8
   - HDBC-2.4.0.1
 flags: {}
 extra-package-dbs: []
